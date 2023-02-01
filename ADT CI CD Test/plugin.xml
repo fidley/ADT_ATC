@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.sap.adt.activation.ui.activationSuccessListener">
+      <onActivationSuccess
+            class="com.abapblog.adt.cicd.test.ActivationSuccessListenerHandler">
+      </onActivationSuccess>         
+   </extension>
+
+</plugin>
